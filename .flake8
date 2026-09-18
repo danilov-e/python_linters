@@ -1,0 +1,26 @@
+[flake8]
+
+; max-line-length = 100
+; max-complexity = 8
+
+; require-plugins = flake8-bugbear, flake8-builtins, flake8-docstrings
+
+; Настройки конкретных плагинов
+
+; flake8-builtins
+; builtins-ignorelist = id
+
+; flake8-docstrings
+; docstring-convention = google
+
+; flake8-bugbear:
+; включаем дополнительные opinionated-проверки B9xx
+;  extend-select = B9
+
+; B950 и E501 проверяют похожую проблему,
+; поэтому для эксперимента оставляем только B950.
+; extend-ignore = E501
+
+; extend-exclude = .venv, .ruff_cache
+
+; per-file-ignores = __init__.py: F401
