@@ -2,6 +2,7 @@
 
 ; max-line-length = 100
 ; max-complexity = 8
+; select = E, F
 
 ; require-plugins = flake8-bugbear, flake8-builtins, flake8-docstrings
 
